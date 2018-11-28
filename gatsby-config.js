@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Media Library Blog',
+    author: 'Peter Dyer',
+    description:
+      'A simple blog discussing the steps in building a media library.',
+    siteUrl: 'https://peterdyer7.github.io/media-library-blog/',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/media-library-blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -48,13 +49,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Media Library Blog`,
+        short_name: `MLBlog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#999999`,
         display: `minimal-ui`,
-        icon: `src/assets/gatsby-icon.png`,
+        icon: `src/assets/books.png`,
       },
     },
     `gatsby-plugin-offline`,
