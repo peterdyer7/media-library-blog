@@ -2,7 +2,7 @@
 
 Based on Gatsby starter for creating a blog
 
-[view the live demo here](https://gatsby-starter-blog-demo.netlify.com/).
+[view the Blog here](https://peterdyer7.github.io/media-library-blog/).
 
 ## Running in development
 
